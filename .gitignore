@@ -1,0 +1,8 @@
+# KiCad Ignore List
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*-backups
+_autosave-*
+*.kicad_prl
