@@ -455,7 +455,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -654,7 +654,7 @@
         "uuid": "07aca59a-bf87-409f-a974-db5a163ccf8c"
       }
     ],
-    "used_designators": "C12-13,J3-7,#PWR14,#PWR16,#PWR23-29,U5-8",
+    "used_designators": "#FLG1-8",
     "variants": []
   },
   "sheets": [

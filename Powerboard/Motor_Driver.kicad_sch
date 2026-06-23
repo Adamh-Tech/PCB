@@ -783,6 +783,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 95.25 130.81)
@@ -808,6 +923,44 @@
 		(color 0 0 0 0)
 		(uuid "3a61a9e8-4822-4981-b724-f436171e25bf")
 	)
+	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd3cdff1-04a4-4a5c-a2cc-1a21af556ae7")
+	)
+	(no_connect
+		(at 176.53 125.73)
+		(uuid "13401608-62f1-4857-84b1-17d102f44d88")
+	)
+	(no_connect
+		(at 120.65 120.65)
+		(uuid "43843580-5b91-40e2-9ca4-3b39c76249f2")
+	)
+	(no_connect
+		(at 120.65 125.73)
+		(uuid "78864389-ecb3-4cff-a5de-395a2656155b")
+	)
+	(no_connect
+		(at 120.65 128.27)
+		(uuid "907b4d8e-8f54-4574-ab04-96b68176c1bd")
+	)
+	(no_connect
+		(at 176.53 130.81)
+		(uuid "92e1094b-8ef2-4bad-87d8-3806719429c8")
+	)
+	(no_connect
+		(at 176.53 123.19)
+		(uuid "b3b2d5ec-004c-4579-bfa0-18928c74799e")
+	)
+	(no_connect
+		(at 176.53 128.27)
+		(uuid "f3390258-5952-43c2-8091-4bdc5bd9862b")
+	)
+	(no_connect
+		(at 120.65 123.19)
+		(uuid "fa882351-5966-4354-8ca5-022663860fa5")
+	)
 	(wire
 		(pts
 			(xy 95.25 63.5) (xy 118.11 63.5)
@@ -820,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 95.25 40.64)
+			(xy 95.25 33.02) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -910,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 138.43) (xy 95.25 130.81)
+			(xy 95.25 130.81) (xy 95.25 138.43)
 		)
 		(stroke
 			(width 0)
@@ -940,16 +1093,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 95.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3e4dcc-8ea1-4e9e-a59b-658d5c5bb379")
-	)
-	(wire
-		(pts
 			(xy 179.07 100.33) (xy 179.07 107.95)
 		)
 		(stroke
@@ -970,6 +1113,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 63.5) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5110d4b-816e-463c-8f8d-a1f40e846b21")
+	)
+	(wire
+		(pts
 			(xy 95.25 40.64) (xy 95.25 44.45)
 		)
 		(stroke
@@ -977,6 +1130,16 @@
 			(type default)
 		)
 		(uuid "d01b76ea-4dd4-4e1e-ae01-3691a4946765")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9020e23-531f-4c0f-b21c-3d2a4ab0c1a4")
 	)
 	(hierarchical_label "PUL2_5v"
 		(shape output)
@@ -1296,7 +1459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N20"
+		(property "Footprint" "SN74HCT245N:N20"
 			(at 118.11 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1321,6 +1484,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 118.11 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1512,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1650,6 +1824,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 95.25 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8fcbd2-1350-4865-ac3d-ffb8e7d4ca95")
+		(property "Reference" "#FLG03"
+			(at 93.345 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 91.44 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25ac8db1-1dff-4181-a8b3-3cb88433cc05")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SN74HCT245N:SN74HCT245N")
 		(at 120.65 107.95 0)
 		(unit 1)
@@ -1681,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N20"
+		(property "Footprint" "SN74HCT245N:N20"
 			(at 120.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1706,6 +1959,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 120.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1977,7 +2241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2000,6 +2264,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 95.25 48.26 0)
 			(hide yes)
 			(show_name no)
