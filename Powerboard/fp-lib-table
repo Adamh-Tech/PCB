@@ -5,4 +5,5 @@
 	(lib (name "SN74HCT245N") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_SN74HCT245N/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "SN74LVC245AN") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_SN74LVC245AN/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "MP2338GTL") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_MP2338GTL-Z/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "1993776") (type "KiCad") (uri "${KIPRJMOD}/Footprints/1993776 (1)") (options "") (descr ""))
 )

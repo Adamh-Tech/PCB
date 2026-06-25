@@ -1374,26 +1374,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 49.53 7.62 0)
+			(property "Reference" "IC1"
+				(at 26.67 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "TEENSY_4.1"
-				(at 49.53 5.08 0)
+				(at 26.67 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "TEENSY_4.1:TEENSY41"
@@ -2565,7 +2563,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 53.34 -58.42 180)
 					(length 5.08)
 					(name "VIN_(3.6_TO_5.5_VOLTS)"
@@ -2637,7 +2635,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 53.34 -68.58 180)
 					(length 5.08)
 					(name "GND_5"
@@ -2655,7 +2653,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 53.34 -71.12 180)
 					(length 5.08)
 					(name "GND_6"
@@ -2884,7 +2882,7 @@
 		(at 50.8 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55b37b6a-2298-4e96-a032-693fe846573b")
+		(uuid "86c8fb39-60ef-439f-bf00-ed15ee325022")
 	)
 	(junction
 		(at 52.07 63.5)
@@ -2909,6 +2907,110 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea7cf19c-2a8f-4b44-aa50-4e3a6c135997")
+	)
+	(no_connect
+		(at 189.23 36.83)
+		(uuid "0409f239-8873-4153-a789-ae7fa76e2310")
+	)
+	(no_connect
+		(at 189.23 87.63)
+		(uuid "04996efa-d52f-4daa-ba7b-bff2c925704a")
+	)
+	(no_connect
+		(at 189.23 64.77)
+		(uuid "081eb661-4c2e-4325-9a75-0f726d40649d")
+	)
+	(no_connect
+		(at 189.23 52.07)
+		(uuid "0e3c4c5e-d33f-44ba-adea-e5a445993bd9")
+	)
+	(no_connect
+		(at 189.23 31.75)
+		(uuid "1d2de9c0-391b-4b9c-8af8-d22c87d86a8a")
+	)
+	(no_connect
+		(at 189.23 72.39)
+		(uuid "297efecb-b7ce-45ea-81a4-95e215faa61f")
+	)
+	(no_connect
+		(at 135.89 54.61)
+		(uuid "2e885711-fa0b-4ccf-a2fa-57c667ee4885")
+	)
+	(no_connect
+		(at 135.89 52.07)
+		(uuid "34ab6104-c700-4742-afb4-af85c305cb4c")
+	)
+	(no_connect
+		(at 189.23 26.67)
+		(uuid "3f01b879-b95c-4672-8376-68b02374bfc4")
+	)
+	(no_connect
+		(at 189.23 44.45)
+		(uuid "5cb5ce1f-4bcc-4348-84ba-caf898d3322e")
+	)
+	(no_connect
+		(at 189.23 80.01)
+		(uuid "5feb5228-3467-406c-9e7e-fe7fdd62dd02")
+	)
+	(no_connect
+		(at 189.23 77.47)
+		(uuid "722bed4b-41e2-4635-9de8-a37c7d1fb648")
+	)
+	(no_connect
+		(at 189.23 34.29)
+		(uuid "77e4b888-6160-4cf3-ab40-ab5dfc805dba")
+	)
+	(no_connect
+		(at 135.89 82.55)
+		(uuid "7f70ae32-e564-44c4-bae3-68c13e02cb3c")
+	)
+	(no_connect
+		(at 189.23 67.31)
+		(uuid "8c0b4495-b2e8-47cf-980c-252f20f48a28")
+	)
+	(no_connect
+		(at 189.23 69.85)
+		(uuid "92db55db-f044-4bc5-81b0-3c146ffd9841")
+	)
+	(no_connect
+		(at 135.89 85.09)
+		(uuid "a635bce4-8d0f-4e76-9c55-782a0239efee")
+	)
+	(no_connect
+		(at 189.23 74.93)
+		(uuid "b5e680f1-ca1c-46cf-8dfe-6b3627bea351")
+	)
+	(no_connect
+		(at 189.23 54.61)
+		(uuid "e10524b0-6ffd-4f9e-9ce0-ad34f88cafdc")
+	)
+	(no_connect
+		(at 189.23 62.23)
+		(uuid "e4040c73-25a3-4ae3-a9a2-585588cda696")
+	)
+	(no_connect
+		(at 189.23 41.91)
+		(uuid "e51fcb10-c53e-4c20-a6c1-785d76aee8d0")
+	)
+	(no_connect
+		(at 189.23 90.17)
+		(uuid "f25af5ce-ada6-41da-a593-ebbeb27a6ea5")
+	)
+	(no_connect
+		(at 189.23 29.21)
+		(uuid "f6f34d15-79ec-4f1f-a490-9a76c1d56a43")
+	)
+	(no_connect
+		(at 189.23 57.15)
+		(uuid "f843e5ca-f860-4eec-8ad1-7dc18db3a1f5")
+	)
+	(no_connect
+		(at 189.23 59.69)
+		(uuid "fa743561-6d04-47a9-961a-bc2e0fe8f9e9")
+	)
+	(no_connect
+		(at 189.23 39.37)
+		(uuid "fe0a62e0-31c0-4c3e-bf5d-52acb602f6f3")
 	)
 	(wire
 		(pts
@@ -2979,16 +3081,6 @@
 			(type default)
 		)
 		(uuid "114cca2b-8293-477a-9f37-0567aa9dfefc")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 50.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166c87fc-cf06-4fe2-a3a5-3555de0dface")
 	)
 	(wire
 		(pts
@@ -3112,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 61.976 38.1)
+			(xy 50.8 38.1) (xy 62.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3139,16 +3231,6 @@
 			(type default)
 		)
 		(uuid "6b0bb65a-20db-47a0-b200-acf6a4cd8b6c")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 25.4 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b87b55a-bcd5-4a65-b089-7afc3bf700b9")
 	)
 	(wire
 		(pts
@@ -3212,6 +3294,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 27.94) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977362ff-9e84-48fb-89a2-087cc86d9fe3")
+	)
+	(wire
+		(pts
 			(xy 52.07 60.96) (xy 52.07 63.5)
 		)
 		(stroke
@@ -3239,6 +3331,16 @@
 			(type default)
 		)
 		(uuid "a1bc783d-d9c5-48f0-b95a-e33f06634e8c")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebd3a3c-8c06-48e2-89f6-8ceb3a08f07e")
 	)
 	(wire
 		(pts
@@ -3289,16 +3391,6 @@
 			(type default)
 		)
 		(uuid "bdea8bf1-07cf-4a25-8fb8-02d7fa854ec9")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 64.516 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5f79c0-6a6c-4ae3-90cb-37fee9ff88d0")
 	)
 	(wire
 		(pts
@@ -3359,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "cf3d92b1-d603-4947-bb95-9ae0d4caa594")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69d6b1d-cbd7-466b-a5d1-5a6bcf84bc7b")
 	)
 	(wire
 		(pts
@@ -4124,7 +4226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 82.55 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4147,6 +4249,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 82.55 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4236,7 +4349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
 			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4259,6 +4372,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4750,7 +4874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
 			(at 30.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4773,6 +4897,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 30.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +4967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
 			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4855,6 +4990,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5160,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
 			(at 57.15 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5183,6 +5329,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 57.15 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5332,7 +5489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 87.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5355,6 +5512,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 87.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5411,8 +5579,8 @@
 		)
 	)
 	(sheet
-		(at 64.516 25.4)
-		(size 19.304 3.81)
+		(at 64.77 25.4)
+		(size 19.05 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5427,7 +5595,7 @@
 		)
 		(uuid "0a5efd36-d7c3-4575-acc1-3f67c4ec14a8")
 		(property "Sheetname" "Step_down_5v"
-			(at 64.516 24.6884 0)
+			(at 64.77 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5438,7 +5606,7 @@
 			)
 		)
 		(property "Sheetfile" "5vStep.kicad_sch"
-			(at 64.516 29.7946 0)
+			(at 64.77 30.8106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5449,7 +5617,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 64.516 27.94 180)
+			(at 64.77 27.94 180)
 			(uuid "8e003b07-2394-484f-b4f1-f1e08c351b66")
 			(effects
 				(font
@@ -6069,8 +6237,8 @@
 		)
 	)
 	(sheet
-		(at 61.976 35.56)
-		(size 23.114 3.81)
+		(at 62.23 35.56)
+		(size 22.86 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6085,7 +6253,7 @@
 		)
 		(uuid "ca54118d-687b-494a-a1f0-1e0c77e3b394")
 		(property "Sheetname" "Step_down_3v3"
-			(at 61.976 34.8484 0)
+			(at 62.23 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6096,7 +6264,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3_Stepdown.kicad_sch"
-			(at 61.976 39.9546 0)
+			(at 62.23 39.9546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6107,7 +6275,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 61.976 38.1 180)
+			(at 62.23 38.1 180)
 			(uuid "acc75e0f-2fe4-4d9b-a557-68a8258724d5")
 			(effects
 				(font

@@ -5,4 +5,5 @@
 	(lib (name "SN74LVC245AN") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_SN74LVC245AN/KiCADv6/2026-06-20_19-28-59.kicad_sym") (options "") (descr ""))
 	(lib (name "TEENSY_4.1") (type "KiCad") (uri "${KIPRJMOD}/Footprints/TEENSY_4.1/TEENSY_4.1.kicad_sym") (options "") (descr ""))
 	(lib (name "MP1584EN") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_MP1584EN-LF-Z/KiCADv6/2026-06-20_20-35-15.kicad_sym") (options "") (descr ""))
+	(lib (name "1993776") (type "KiCad") (uri "${KIPRJMOD}/Footprints/1993776 (1)/1993776.kicad_sym") (options "") (descr ""))
 )
