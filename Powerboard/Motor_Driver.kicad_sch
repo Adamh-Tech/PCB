@@ -1439,7 +1439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c48eb87-5f9f-4d9c-9a50-296d027b8807")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 146.05 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +1568,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1586,7 +1586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffd5db6-f210-49ce-a263-622b5d5efed9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1646,7 +1646,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "326ef04b-7042-45f1-8277-050691e0971b")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 99.06 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f03b560-620a-4be3-a123-023afc300f3b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -1817,7 +1817,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1835,7 +1835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8fcbd2-1350-4865-ac3d-ffb8e7d4ca95")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 93.345 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1896,7 +1896,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1914,7 +1914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ced7b62-b6b0-40d0-9ea4-fa8b3e36a8e1")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 148.59 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2043,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d07b370-1d56-48b6-a3dd-844cb293a288")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 180.34 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2140,7 +2140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5e62a4-97de-40fd-90ee-c04095accbd5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR018"
 			(at 182.88 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2201,7 +2201,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR028")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1a26abf-dc77-41a0-a4ec-304cddc7a026")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 99.06 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2294,7 +2294,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)

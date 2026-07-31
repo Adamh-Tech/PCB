@@ -1,0 +1,27 @@
+ERC report (2026-06-27T11:27:18, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3250 mils, 4100 mils): Symbol IC3 [AP63301WU-7]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3300 mils, 3950 mils): Symbol IC2 [AP63301WU-7]
+
+***** Sheet /Step_down_5v/
+
+***** Sheet /Step_down_3v3/
+
+***** Sheet /Motor Driver1/
+
+***** Sheet /Encoder data1/
+
+ ** ERC messages: 2  Errors 0  Warnings 2
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Symbol doesn't match copy in library
+    - Assigned footprint doesn't match footprint filters

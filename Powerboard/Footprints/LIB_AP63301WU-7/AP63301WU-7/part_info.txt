@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP63301WU-7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=5.1
+Released=2020-02-06 10:25:41
+Downloaded=2026-06-27 17:55:16
+3D=Y
