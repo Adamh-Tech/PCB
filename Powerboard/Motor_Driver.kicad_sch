@@ -160,7 +160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74HCT245N:SN74HCT245N"
+		(symbol "SN74HCT245NSR:SN74HCT245NSR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -179,7 +179,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74HCT245N"
+			(property "Value" "SN74HCT245NSR"
 				(at 27.94 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(property "Footprint" "N20"
+			(property "Footprint" "NS20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -234,7 +234,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SN74HCT245N"
+			(property "ki_keywords" "SN74HCT245NSR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -245,7 +245,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "N20"
+			(property "ki_fp_filters" "NS20 NS20-M NS20-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,7 +256,7 @@
 					)
 				)
 			)
-			(symbol "SN74HCT245N_0_1"
+			(symbol "SN74HCT245NSR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -27.94)
@@ -1143,7 +1143,7 @@
 	)
 	(hierarchical_label "PUL2_5v"
 		(shape output)
-		(at 173.99 50.8 0)
+		(at 173.99 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1154,7 +1154,7 @@
 	)
 	(hierarchical_label "DIR_2_3v3"
 		(shape input)
-		(at 118.11 50.8 180)
+		(at 118.11 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1165,7 +1165,7 @@
 	)
 	(hierarchical_label "PUL1_5V"
 		(shape output)
-		(at 173.99 45.72 0)
+		(at 173.99 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 	)
 	(hierarchical_label "PUL_3_3v3"
 		(shape input)
-		(at 118.11 53.34 180)
+		(at 118.11 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1187,7 +1187,7 @@
 	)
 	(hierarchical_label "DIR_4_3v3"
 		(shape input)
-		(at 118.11 60.96 180)
+		(at 118.11 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1198,7 +1198,7 @@
 	)
 	(hierarchical_label "DIR5_5v"
 		(shape output)
-		(at 176.53 115.57 0)
+		(at 176.53 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 	)
 	(hierarchical_label "PUL_2_3v3"
 		(shape input)
-		(at 118.11 48.26 180)
+		(at 118.11 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1231,7 +1231,7 @@
 	)
 	(hierarchical_label "PUL_5_3v3"
 		(shape input)
-		(at 120.65 110.49 180)
+		(at 120.65 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 	)
 	(hierarchical_label "PUL5_5v"
 		(shape output)
-		(at 176.53 113.03 0)
+		(at 176.53 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 	)
 	(hierarchical_label "DIR_3_3v3"
 		(shape input)
-		(at 118.11 55.88 180)
+		(at 118.11 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1275,7 +1275,7 @@
 	)
 	(hierarchical_label "PUL4_5v"
 		(shape output)
-		(at 173.99 60.96 0)
+		(at 173.99 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 	)
 	(hierarchical_label "DIR3_5v"
 		(shape output)
-		(at 173.99 58.42 0)
+		(at 173.99 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 	)
 	(hierarchical_label "DIR_6_3v3"
 		(shape input)
-		(at 120.65 118.11 180)
+		(at 120.65 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 	)
 	(hierarchical_label "DIR6_5v"
 		(shape output)
-		(at 176.53 120.65 0)
+		(at 176.53 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 	)
 	(hierarchical_label "PUL_1_3v3"
 		(shape input)
-		(at 118.11 43.18 180)
+		(at 118.11 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 	)
 	(hierarchical_label "DIR_1_3v3"
 		(shape input)
-		(at 118.11 45.72 180)
+		(at 118.11 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 	)
 	(hierarchical_label "PUL6_5v"
 		(shape output)
-		(at 176.53 118.11 0)
+		(at 176.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,7 +1352,7 @@
 	)
 	(hierarchical_label "DIR1_5v"
 		(shape output)
-		(at 173.99 48.26 0)
+		(at 173.99 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 	)
 	(hierarchical_label "DIR2_5v"
 		(shape output)
-		(at 173.99 53.34 0)
+		(at 173.99 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1374,7 +1374,7 @@
 	)
 	(hierarchical_label "DIR4_5v"
 		(shape output)
-		(at 173.99 63.5 0)
+		(at 173.99 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1385,7 +1385,7 @@
 	)
 	(hierarchical_label "PUL3_5v"
 		(shape output)
-		(at 173.99 55.88 0)
+		(at 173.99 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 	)
 	(hierarchical_label "PUL_6_3v3"
 		(shape input)
-		(at 120.65 115.57 180)
+		(at 120.65 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 	)
 	(hierarchical_label "PUL_4_3v3"
 		(shape input)
-		(at 118.11 58.42 180)
+		(at 118.11 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1418,7 @@
 	)
 	(hierarchical_label "DIR_5_3v3"
 		(shape input)
-		(at 120.65 113.03 180)
+		(at 120.65 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1426,153 +1426,6 @@
 			(justify right)
 		)
 		(uuid "edc21b64-91f1-4e28-8a49-8531c5c559cd")
-	)
-	(symbol
-		(lib_id "SN74HCT245N:SN74HCT245N")
-		(at 118.11 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c48eb87-5f9f-4d9c-9a50-296d027b8807")
-		(property "Reference" "U1"
-			(at 146.05 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74HCT245N"
-			(at 146.05 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SN74HCT245N:N20"
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d6d2bd3-9c53-4a3b-98d1-244a7b75a162")
-		)
-		(pin "6"
-			(uuid "cc56bc12-953b-4707-a0d8-c8d2d49029b0")
-		)
-		(pin "1"
-			(uuid "bd9babaf-e49e-4ec4-9976-be56d039f229")
-		)
-		(pin "4"
-			(uuid "411ed741-1c3e-4064-85b0-7982ea8d54b6")
-		)
-		(pin "5"
-			(uuid "d29e3faa-0b0b-41d9-b9fc-48ff474dcd6a")
-		)
-		(pin "3"
-			(uuid "ae065cf2-67d3-41b5-b45e-f4af4822d86f")
-		)
-		(pin "7"
-			(uuid "4f097e16-3b67-4751-a65c-29a8aaf2cfeb")
-		)
-		(pin "14"
-			(uuid "51cded4f-9640-4511-af0c-ccb15a0a77f8")
-		)
-		(pin "16"
-			(uuid "4905a5fd-5300-4f3b-b954-0d4041018417")
-		)
-		(pin "11"
-			(uuid "a4673eb8-a440-46aa-b3a3-e71894ccb809")
-		)
-		(pin "12"
-			(uuid "4e8d19a5-5212-48b0-ae30-04238cb47afe")
-		)
-		(pin "17"
-			(uuid "b2f2251c-f34b-4e5d-8896-04b4dde3a84c")
-		)
-		(pin "8"
-			(uuid "a75f4eb6-c50b-46a0-b0ac-117a59581e00")
-		)
-		(pin "9"
-			(uuid "9b6bd982-c585-4706-b973-e8795312658a")
-		)
-		(pin "10"
-			(uuid "f77d2b20-a83e-4e06-93ed-738c896c11fb")
-		)
-		(pin "13"
-			(uuid "6c27ed9e-aa0c-4a9b-967c-ef8843010404")
-		)
-		(pin "15"
-			(uuid "876b8b1e-1cad-4174-9fb1-5931b1e27425")
-		)
-		(pin "20"
-			(uuid "1fe21bb7-0b11-47e4-961f-3d007991d268")
-		)
-		(pin "19"
-			(uuid "5f555f85-2e6c-4e69-8995-a2402a2f7137")
-		)
-		(pin "18"
-			(uuid "f544b127-0c63-4f21-b4c5-bf08c7c963ab")
-		)
-		(instances
-			(project "Powerboard"
-				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1824,6 +1677,153 @@
 		)
 	)
 	(symbol
+		(lib_id "SN74HCT245NSR:SN74HCT245NSR")
+		(at 118.11 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b0ec39b-a5f1-4da5-8b65-d9d0bc1b99cb")
+		(property "Reference" "U1"
+			(at 146.05 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74HCT245NSR"
+			(at 146.05 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SN74HCT245NSR:NS20"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "b88b1a73-1275-4553-b9fd-4bb9dd866d4a")
+		)
+		(pin "1"
+			(uuid "7b9e6fa2-54a8-4f5e-89f9-222f57720edf")
+		)
+		(pin "15"
+			(uuid "74000cd2-7b22-4233-b98e-8b26de5a4730")
+		)
+		(pin "10"
+			(uuid "20961e27-2f39-47a5-ba40-7953d42a7e08")
+		)
+		(pin "9"
+			(uuid "6e0478b7-0607-49af-8235-ec8372b6bfd9")
+		)
+		(pin "4"
+			(uuid "27c39e8b-428b-4bc7-8e20-3115af5faf98")
+		)
+		(pin "6"
+			(uuid "c64b0766-bc0d-477e-b968-08726e81c7b6")
+		)
+		(pin "2"
+			(uuid "8c718a59-740f-437e-a72f-75a816795d38")
+		)
+		(pin "3"
+			(uuid "ed9fe71a-d349-4f8e-976e-56dc38079ce5")
+		)
+		(pin "5"
+			(uuid "91410ad4-fd55-49ea-9050-7b34407dd592")
+		)
+		(pin "8"
+			(uuid "1bb802dd-889b-4301-a4a9-6670ed95b0e0")
+		)
+		(pin "11"
+			(uuid "b3671e22-c280-4871-b7fd-b7178c5511ed")
+		)
+		(pin "12"
+			(uuid "c564dee5-7745-49dd-8f70-010c785bc2f9")
+		)
+		(pin "13"
+			(uuid "e6ada71e-c10c-4c25-8b4b-e8cf4dcb38d0")
+		)
+		(pin "14"
+			(uuid "fb37863f-ee24-4ebd-b299-4ac430aff866")
+		)
+		(pin "19"
+			(uuid "bc6d8c7d-a265-46bd-9709-a79437794451")
+		)
+		(pin "18"
+			(uuid "393d0499-020e-4205-9dc2-1b1a1586593a")
+		)
+		(pin "17"
+			(uuid "7cffadd5-2fea-46c6-bf7b-6c123a58b3e1")
+		)
+		(pin "16"
+			(uuid "735dcd8b-89b4-474c-9577-8dd6c7a8f51b")
+		)
+		(pin "20"
+			(uuid "320469a2-439e-4202-8c24-1a088c4f43b6")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 95.25 38.1 90)
 		(unit 1)
@@ -1897,153 +1897,6 @@
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74HCT245N:SN74HCT245N")
-		(at 120.65 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ced7b62-b6b0-40d0-9ea4-fa8b3e36a8e1")
-		(property "Reference" "U2"
-			(at 148.59 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74HCT245N"
-			(at 148.59 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SN74HCT245N:N20"
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fb4aa3c8-5750-4768-88be-78f72cb967b6")
-		)
-		(pin "6"
-			(uuid "dd0a81f1-aab2-4954-8241-3ed75e02d221")
-		)
-		(pin "1"
-			(uuid "9c36d488-a2fc-4da6-a230-1a6c1b15a060")
-		)
-		(pin "4"
-			(uuid "071d96fb-e563-454d-b0b9-e978577bc56e")
-		)
-		(pin "5"
-			(uuid "d5da5d6c-3d58-4313-8045-8b99d705ec35")
-		)
-		(pin "3"
-			(uuid "fb6debbf-638e-4d85-af66-7811e940478f")
-		)
-		(pin "7"
-			(uuid "7084b415-93e1-4a98-bb18-d540acd13c28")
-		)
-		(pin "14"
-			(uuid "a0d60b49-5d5c-4455-9574-260bbf153671")
-		)
-		(pin "16"
-			(uuid "d8364bdc-1c07-4a12-9ee7-1837f8fd4af2")
-		)
-		(pin "11"
-			(uuid "2782cbac-c6c1-44fb-8d04-68f44a9b4b56")
-		)
-		(pin "12"
-			(uuid "1898ff26-b82b-4e60-9cbc-e57c4fad2a66")
-		)
-		(pin "17"
-			(uuid "278fae84-52ac-40d9-b4ec-60c032bf3464")
-		)
-		(pin "8"
-			(uuid "504d8814-8ffd-4193-8e09-ffc666b654d5")
-		)
-		(pin "9"
-			(uuid "a94b8ecd-8d68-403b-8325-273c768c24a8")
-		)
-		(pin "10"
-			(uuid "361c9b64-019b-4b71-aa24-a1336aa2405d")
-		)
-		(pin "13"
-			(uuid "0f7914f4-7247-4d68-92d0-bc3a1f024b23")
-		)
-		(pin "15"
-			(uuid "51ae621b-ea6a-4122-89f8-3fe2731dd50c")
-		)
-		(pin "20"
-			(uuid "dba73d28-ee71-4259-ab6c-aab454179dc5")
-		)
-		(pin "19"
-			(uuid "cd9134d7-03db-4e19-be8e-a726a38c0314")
-		)
-		(pin "18"
-			(uuid "a8a76544-3f26-4157-ba47-0ae29b9a1196")
-		)
-		(instances
-			(project "Powerboard"
-				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2295,6 +2148,153 @@
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SN74HCT245NSR:SN74HCT245NSR")
+		(at 120.65 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd7b2ed5-fe20-443f-aa86-8434d282ba75")
+		(property "Reference" "U2"
+			(at 148.59 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74HCT245NSR"
+			(at 148.59 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SN74HCT245NSR:NS20"
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "17143fd0-e921-491b-aaeb-c697640b19bf")
+		)
+		(pin "1"
+			(uuid "273f8f61-850c-433f-97fb-d952e3c1aac3")
+		)
+		(pin "15"
+			(uuid "db4650cd-a7fc-47ae-9b11-bb22a108cd16")
+		)
+		(pin "10"
+			(uuid "d5d23527-3245-4e6a-95bb-7168c608f1dc")
+		)
+		(pin "9"
+			(uuid "22c38774-bdb5-47a2-8740-2c68be5a47d6")
+		)
+		(pin "4"
+			(uuid "6972f261-57a2-4090-be41-a8846cb03c02")
+		)
+		(pin "6"
+			(uuid "8b88ae1b-5711-4fa8-8ad2-f3e386101479")
+		)
+		(pin "2"
+			(uuid "3497e7c3-6afa-4b03-b23f-49bb2d32484b")
+		)
+		(pin "3"
+			(uuid "7a090c24-c61d-432c-a394-e865144f9461")
+		)
+		(pin "5"
+			(uuid "1f431662-693f-4b60-a1a5-85f476537951")
+		)
+		(pin "8"
+			(uuid "b26a1a9d-0c6f-4dad-a046-56fea3d203fa")
+		)
+		(pin "11"
+			(uuid "32340fd1-7ca7-4ce2-8b07-9fb183819a47")
+		)
+		(pin "12"
+			(uuid "10120df7-073a-445b-bc16-4fc27b941ece")
+		)
+		(pin "13"
+			(uuid "218fe436-d5da-46b6-8917-a7b9e18ddf31")
+		)
+		(pin "14"
+			(uuid "9994d0b8-cb90-40dc-bc36-eb5c20a0aef0")
+		)
+		(pin "19"
+			(uuid "aabb638b-a794-471c-8af8-7cc3b79ca275")
+		)
+		(pin "18"
+			(uuid "adcd7930-763b-40e4-ab96-2d185226285f")
+		)
+		(pin "17"
+			(uuid "4ac5f48f-4964-4cdb-a063-ff9deda0e4e9")
+		)
+		(pin "16"
+			(uuid "165f48c1-34d4-489f-93c8-62c8c4ad7a8b")
+		)
+		(pin "20"
+			(uuid "ceaeba8f-5c4a-4828-8e36-5d83e1cac00c")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
