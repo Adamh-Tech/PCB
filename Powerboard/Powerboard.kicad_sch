@@ -3808,7 +3808,7 @@
 		(uuid "0042c0ab-be0e-4429-adc2-a9cb6d6b7ed6")
 	)
 	(label "EA4_3v3"
-		(at 135.89 64.77 180)
+		(at 135.89 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3818,7 +3818,7 @@
 		(uuid "00a4aa3c-3dda-4e0d-94fc-13ed14fc64b5")
 	)
 	(label "EB4_3v3"
-		(at 135.89 62.23 180)
+		(at 135.89 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 		(uuid "1e776293-8081-474e-87e2-29afdc340290")
 	)
 	(label "EB3_3v3"
-		(at 135.89 67.31 180)
+		(at 135.89 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +3928,7 @@
 		(uuid "2411c46b-f99c-49fa-8cbe-6dfc15445632")
 	)
 	(label "EB1_3v3"
-		(at 135.89 77.47 180)
+		(at 135.89 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3968,7 +3968,7 @@
 		(uuid "39414224-6269-4815-89f8-d8073b9fb037")
 	)
 	(label "EA1_3v3"
-		(at 135.89 80.01 180)
+		(at 135.89 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 		(uuid "3e195603-d097-4c8a-b80c-1a9b7bd9fff8")
 	)
 	(label "EA2_3v3"
-		(at 135.89 74.93 180)
+		(at 135.89 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,7 +4058,7 @@
 		(uuid "5456dd7d-3dff-46e4-ae44-c21ef5d3e0ad")
 	)
 	(label "EB2_3v3"
-		(at 135.89 72.39 180)
+		(at 135.89 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4338,7 +4338,7 @@
 		(uuid "d917b2bd-4a8a-4c09-a269-669d14b57868")
 	)
 	(label "EA3_3v3"
-		(at 135.89 69.85 180)
+		(at 135.89 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4491,7 +4491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4701,7 +4701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
@@ -4893,7 +4893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6336,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 152.4 132.08 0)
 			(hide yes)
 			(show_name no)
