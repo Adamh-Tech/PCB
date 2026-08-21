@@ -10,4 +10,5 @@
 	(lib (name "AP63301WU") (type "KiCad") (uri "${KIPRJMOD}/Footprints/LIB_AP63301WU-7/AP63301WU-7/KiCad/AP63301WU-7.kicad_sym") (options "") (descr ""))
 	(lib (name "SN74HCT245NSR") (type "KiCad") (uri "${KIPRJMOD}/Footprints/SN74HCT245NSR/KiCADv6/2026-08-07_05-20-04.kicad_sym") (options "") (descr ""))
 	(lib (name "SN74LVC245ADW") (type "KiCad") (uri "${KIPRJMOD}/Footprints/SN74LVC245ADW/KiCADv6/2026-08-07_05-16-00.kicad_sym") (options "") (descr ""))
+	(lib (name "SN74ACT245NSR") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ul_SN74ACT245NSR/KiCADv6/2026-08-21_01-28-33.kicad_sym") (options "") (descr ""))
 )

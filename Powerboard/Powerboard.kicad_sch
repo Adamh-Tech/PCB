@@ -3178,10 +3178,6 @@
 		(uuid "77e4b888-6160-4cf3-ab40-ab5dfc805dba")
 	)
 	(no_connect
-		(at 135.89 82.55)
-		(uuid "7f70ae32-e564-44c4-bae3-68c13e02cb3c")
-	)
-	(no_connect
 		(at 189.23 67.31)
 		(uuid "8c0b4495-b2e8-47cf-980c-252f20f48a28")
 	)
@@ -3411,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 90.17) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6994d413-f22a-48c6-b8bd-450ff25c37cf")
+	)
+	(wire
+		(pts
 			(xy 82.55 93.98) (xy 72.39 93.98)
 		)
 		(stroke
@@ -3438,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "6f64e9f5-fe46-4554-b5d1-1020e91b1ed0")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d10840-6596-4202-85ef-4498b35c57da")
 	)
 	(wire
 		(pts
@@ -3708,6 +3724,16 @@
 			(type default)
 		)
 		(uuid "ed08d337-f4c1-4316-b1f3-1701529d756e")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f692345b-fa13-4599-b728-82d28378078d")
 	)
 	(wire
 		(pts
@@ -4688,7 +4714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "195d8103-e3e5-4788-8fab-577e70eec1f8")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 199.39 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +4786,99 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
-					(reference "TP1")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 119.38 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e7ebf1d-385c-4c64-bed4-7ba27fb9dbeb")
+		(property "Reference" "J7"
+			(at 117.094 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 116.84 87.6301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81e2b536-14bf-424f-b7fe-b7a90d4290ef")
+		)
+		(pin "2"
+			(uuid "5cad3bb1-fcb2-40eb-ba88-72a995b2fbf7")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4183b18c-29ea-4ca8-b3d0-eafb539d3208")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 96.52 33.5279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4968,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5135,6 +5253,84 @@
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de721d2-6529-4afc-94d3-f11937fdedb3")
+		(property "Reference" "#PWR03"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17e4e427-529d-416e-a21b-089c0e503281")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5743,7 +5939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6bc9ac5-3a98-4086-857d-568750a425d3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5803,7 +5999,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5821,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ca5093-c4c9-4086-bf91-5e8740080a46")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 194.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5881,7 +6077,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5899,7 +6095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba7a33a3-ff27-4bd8-8664-1f50d53665fd")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 95.25 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5971,7 +6167,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

@@ -166,7 +166,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74HCT245NSR:SN74HCT245NSR"
+		(symbol "SN74ACT245NSR:SN74ACT245NSR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -185,7 +185,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74HCT245NSR"
+			(property "Value" "SN74ACT245NSR"
 				(at 27.94 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -207,7 +207,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74act245"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,7 +240,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SN74HCT245NSR"
+			(property "ki_keywords" "SN74ACT245NSR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -262,7 +262,7 @@
 					)
 				)
 			)
-			(symbol "SN74HCT245NSR_0_1"
+			(symbol "SN74ACT245NSR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -27.94)
@@ -1434,6 +1434,153 @@
 		(uuid "edc21b64-91f1-4e28-8a49-8531c5c559cd")
 	)
 	(symbol
+		(lib_id "SN74ACT245NSR:SN74ACT245NSR")
+		(at 118.11 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0791311f-f33f-473c-b050-837620fb60fc")
+		(property "Reference" "U1"
+			(at 146.05 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74ACT245NSR"
+			(at 146.05 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SN74ACT245NSR:NS20"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74act245"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "89be0977-d649-4ede-9aec-a003778d7da7")
+		)
+		(pin "4"
+			(uuid "542304b8-8f05-4208-83e5-df84bb004481")
+		)
+		(pin "5"
+			(uuid "f7c6135a-57d9-44f2-9eb0-99f69e4a486e")
+		)
+		(pin "9"
+			(uuid "cf468016-878d-4151-8171-a1523e5f38bc")
+		)
+		(pin "2"
+			(uuid "016a8227-c346-46db-bb66-9f2681205733")
+		)
+		(pin "3"
+			(uuid "f2ba7fec-1691-4899-8b23-f42f5a64c7af")
+		)
+		(pin "6"
+			(uuid "17b19d74-3840-45b1-8961-2ba7e610fe0d")
+		)
+		(pin "7"
+			(uuid "c806ed80-0145-41fc-a025-db909106dce3")
+		)
+		(pin "1"
+			(uuid "a237a9d5-435d-4516-b412-3f597ee06684")
+		)
+		(pin "13"
+			(uuid "516aef68-bcaa-4b49-9880-004aa70542e6")
+		)
+		(pin "14"
+			(uuid "cb177e1d-1c01-4c4a-a117-b0350d29d181")
+		)
+		(pin "15"
+			(uuid "ebcb0286-37c7-4b37-9df7-e050e8c9c20b")
+		)
+		(pin "16"
+			(uuid "29607697-ae24-4305-ac05-cdbcf4f72a03")
+		)
+		(pin "17"
+			(uuid "0499ddbb-0879-4fc1-93a7-c04898551cc0")
+		)
+		(pin "18"
+			(uuid "c4224921-6d83-42ad-b084-6c98352667e2")
+		)
+		(pin "19"
+			(uuid "e279b071-a3df-402e-afb1-c269f044a20a")
+		)
+		(pin "20"
+			(uuid "f6e4c072-9178-4288-861f-14ddf4429ea7")
+		)
+		(pin "12"
+			(uuid "c0cd31b0-7b4b-4d3e-9018-94dbda8a7dfd")
+		)
+		(pin "10"
+			(uuid "70afe5a7-c239-481e-8cf0-d675c3f45324")
+		)
+		(pin "11"
+			(uuid "00f12303-80e8-4227-9438-8d847ce704c8")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 71.12 0)
 		(unit 1)
@@ -1445,7 +1592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffd5db6-f210-49ce-a263-622b5d5efed9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1505,7 +1652,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f03b560-620a-4be3-a123-023afc300f3b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -1676,154 +1823,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74HCT245NSR:SN74HCT245NSR")
-		(at 118.11 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b0ec39b-a5f1-4da5-8b65-d9d0bc1b99cb")
-		(property "Reference" "U1"
-			(at 146.05 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74HCT245NSR"
-			(at 146.05 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SN74HCT245NSR:NS20"
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 118.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "b88b1a73-1275-4553-b9fd-4bb9dd866d4a")
-		)
-		(pin "1"
-			(uuid "7b9e6fa2-54a8-4f5e-89f9-222f57720edf")
-		)
-		(pin "15"
-			(uuid "74000cd2-7b22-4233-b98e-8b26de5a4730")
-		)
-		(pin "10"
-			(uuid "20961e27-2f39-47a5-ba40-7953d42a7e08")
-		)
-		(pin "9"
-			(uuid "6e0478b7-0607-49af-8235-ec8372b6bfd9")
-		)
-		(pin "4"
-			(uuid "27c39e8b-428b-4bc7-8e20-3115af5faf98")
-		)
-		(pin "6"
-			(uuid "c64b0766-bc0d-477e-b968-08726e81c7b6")
-		)
-		(pin "2"
-			(uuid "8c718a59-740f-437e-a72f-75a816795d38")
-		)
-		(pin "3"
-			(uuid "ed9fe71a-d349-4f8e-976e-56dc38079ce5")
-		)
-		(pin "5"
-			(uuid "91410ad4-fd55-49ea-9050-7b34407dd592")
-		)
-		(pin "8"
-			(uuid "1bb802dd-889b-4301-a4a9-6670ed95b0e0")
-		)
-		(pin "11"
-			(uuid "b3671e22-c280-4871-b7fd-b7178c5511ed")
-		)
-		(pin "12"
-			(uuid "c564dee5-7745-49dd-8f70-010c785bc2f9")
-		)
-		(pin "13"
-			(uuid "e6ada71e-c10c-4c25-8b4b-e8cf4dcb38d0")
-		)
-		(pin "14"
-			(uuid "fb37863f-ee24-4ebd-b299-4ac430aff866")
-		)
-		(pin "19"
-			(uuid "bc6d8c7d-a265-46bd-9709-a79437794451")
-		)
-		(pin "18"
-			(uuid "393d0499-020e-4205-9dc2-1b1a1586593a")
-		)
-		(pin "17"
-			(uuid "7cffadd5-2fea-46c6-bf7b-6c123a58b3e1")
-		)
-		(pin "16"
-			(uuid "735dcd8b-89b4-474c-9577-8dd6c7a8f51b")
-		)
-		(pin "20"
-			(uuid "320469a2-439e-4202-8c24-1a088c4f43b6")
-		)
-		(instances
-			(project "Powerboard"
-				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U1")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1909,6 +1909,153 @@
 		)
 	)
 	(symbol
+		(lib_id "SN74ACT245NSR:SN74ACT245NSR")
+		(at 120.65 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ccf30d-0f58-47c9-b46f-781de243b473")
+		(property "Reference" "U2"
+			(at 148.59 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74ACT245NSR"
+			(at 148.59 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SN74ACT245NSR:NS20"
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74act245"
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "956d5be5-67cd-44e5-9970-8da0380d5d52")
+		)
+		(pin "4"
+			(uuid "1f0dfbbd-4cb0-4ed5-807c-4c299d0fbe45")
+		)
+		(pin "5"
+			(uuid "8bf0e200-f99f-40e2-96e1-516c21f15165")
+		)
+		(pin "9"
+			(uuid "58ef2b6f-9cae-4e26-84b8-e721861fb8a7")
+		)
+		(pin "2"
+			(uuid "e6caaf5d-bce3-4584-852e-cd333bfb1e1f")
+		)
+		(pin "3"
+			(uuid "7a0fe6d3-541a-42a2-96ba-9a6429ccfc2c")
+		)
+		(pin "6"
+			(uuid "df9ea753-7d96-471f-a9be-1940d12c3c65")
+		)
+		(pin "7"
+			(uuid "b31d9417-e62c-4fb7-b9b0-ab828065594d")
+		)
+		(pin "1"
+			(uuid "5d478aca-757c-4b5d-8c97-ded8e7485d3a")
+		)
+		(pin "13"
+			(uuid "f8465402-d8e0-4d1e-bb42-c4f528344562")
+		)
+		(pin "14"
+			(uuid "82892d9b-1768-405e-9625-aec95909c38d")
+		)
+		(pin "15"
+			(uuid "1ab30c08-2e1e-4115-8f8b-21637b68baab")
+		)
+		(pin "16"
+			(uuid "cd95e45e-e465-41e5-b4f6-82ffb1c7e0da")
+		)
+		(pin "17"
+			(uuid "909520df-112a-4023-bf10-fb7aa1be48bc")
+		)
+		(pin "18"
+			(uuid "9f05f1f9-26b2-40f6-82ab-ec9b5441992a")
+		)
+		(pin "19"
+			(uuid "ffd5702c-c99c-45ad-a16b-e24907b96b44")
+		)
+		(pin "20"
+			(uuid "3dc26f14-e26f-49b2-a45d-bc925bbb7dfb")
+		)
+		(pin "12"
+			(uuid "77a30f7d-5fe5-4a63-ad70-44dca5976abe")
+		)
+		(pin "10"
+			(uuid "0773c2a4-e493-4c3c-9120-366a06fbd0d3")
+		)
+		(pin "11"
+			(uuid "41201514-6685-420d-b9a9-f315f4ea811b")
+		)
+		(instances
+			(project "Powerboard"
+				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 43.18 90)
 		(unit 1)
@@ -1920,7 +2067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d07b370-1d56-48b6-a3dd-844cb293a288")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 180.34 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1981,7 +2128,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1999,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5e62a4-97de-40fd-90ee-c04095accbd5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 182.88 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2060,7 +2207,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2154,153 +2301,6 @@
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74HCT245NSR:SN74HCT245NSR")
-		(at 120.65 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd7b2ed5-fe20-443f-aa86-8434d282ba75")
-		(property "Reference" "U2"
-			(at 148.59 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74HCT245NSR"
-			(at 148.59 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SN74HCT245NSR:NS20"
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hct245"
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "17143fd0-e921-491b-aaeb-c697640b19bf")
-		)
-		(pin "1"
-			(uuid "273f8f61-850c-433f-97fb-d952e3c1aac3")
-		)
-		(pin "15"
-			(uuid "db4650cd-a7fc-47ae-9b11-bb22a108cd16")
-		)
-		(pin "10"
-			(uuid "d5d23527-3245-4e6a-95bb-7168c608f1dc")
-		)
-		(pin "9"
-			(uuid "22c38774-bdb5-47a2-8740-2c68be5a47d6")
-		)
-		(pin "4"
-			(uuid "6972f261-57a2-4090-be41-a8846cb03c02")
-		)
-		(pin "6"
-			(uuid "8b88ae1b-5711-4fa8-8ad2-f3e386101479")
-		)
-		(pin "2"
-			(uuid "3497e7c3-6afa-4b03-b23f-49bb2d32484b")
-		)
-		(pin "3"
-			(uuid "7a090c24-c61d-432c-a394-e865144f9461")
-		)
-		(pin "5"
-			(uuid "1f431662-693f-4b60-a1a5-85f476537951")
-		)
-		(pin "8"
-			(uuid "b26a1a9d-0c6f-4dad-a046-56fea3d203fa")
-		)
-		(pin "11"
-			(uuid "32340fd1-7ca7-4ce2-8b07-9fb183819a47")
-		)
-		(pin "12"
-			(uuid "10120df7-073a-445b-bc16-4fc27b941ece")
-		)
-		(pin "13"
-			(uuid "218fe436-d5da-46b6-8917-a7b9e18ddf31")
-		)
-		(pin "14"
-			(uuid "9994d0b8-cb90-40dc-bc36-eb5c20a0aef0")
-		)
-		(pin "19"
-			(uuid "aabb638b-a794-471c-8af8-7cc3b79ca275")
-		)
-		(pin "18"
-			(uuid "adcd7930-763b-40e4-ab96-2d185226285f")
-		)
-		(pin "17"
-			(uuid "4ac5f48f-4964-4cdb-a063-ff9deda0e4e9")
-		)
-		(pin "16"
-			(uuid "165f48c1-34d4-489f-93c8-62c8c4ad7a8b")
-		)
-		(pin "20"
-			(uuid "ceaeba8f-5c4a-4828-8e36-5d83e1cac00c")
-		)
-		(instances
-			(project "Powerboard"
-				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/c97f42c2-abf8-4b30-857d-14b47bb2334c"
-					(reference "U2")
 					(unit 1)
 				)
 			)

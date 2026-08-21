@@ -1255,7 +1255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e16f86d-aa40-42eb-b3b6-ca77a3c44f05")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1315,7 +1315,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/ca54118d-687b-494a-a1f0-1e0c77e3b394"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1517,7 +1517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ec794a-8328-4a0b-b6b2-4a101fe2e412")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 179.07 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1577,7 +1577,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/ca54118d-687b-494a-a1f0-1e0c77e3b394"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1595,7 +1595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e193a7c-29fd-40f5-a911-7c8b77377e7b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1655,7 +1655,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/ca54118d-687b-494a-a1f0-1e0c77e3b394"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1859,7 +1859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a74045c-90dd-4e55-98c5-40ff3cd10d08")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 68.58 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1919,7 +1919,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/ca54118d-687b-494a-a1f0-1e0c77e3b394"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf98131d-b513-4939-8338-5dcee03e9bf7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2090,7 +2090,7 @@
 		(instances
 			(project "Powerboard"
 				(path "/07aca59a-bf87-409f-a974-db5a163ccf8c/ca54118d-687b-494a-a1f0-1e0c77e3b394"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
